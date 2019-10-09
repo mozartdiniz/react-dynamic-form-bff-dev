@@ -1,0 +1,71 @@
+{
+    "title": "form_title",
+    "form": [
+        {
+            "type": "email-field",
+            "props": {
+                "label": "form_label_email_address"
+            }
+        },
+        {
+            "type": "select-field",
+            "props": {
+                "label": "form_label_person_title",
+                "items": [
+                    {
+                        "value": "Miss",
+                        "text": "form_data_person_title_miss"
+                    },
+                    {
+                        "value": "Mrs",
+                        "text": "form_data_person_title_mrs"
+                    },
+                    {
+                        "value": "Ms",
+                        "text": "form_data_person_title_ms"
+                    },
+                    {
+                        "value": "Mr",
+                        "text": "form_data_person_title_mr"
+                    },
+                    {
+                        "value": "Dr",
+                        "text": "form_data_person_title_dr"
+                    },
+                    {
+                        "value": "Prof",
+                        "text": "form_data_person_title_prof"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "text-field",
+            "props": {
+                "label": "form_label_first_name"
+            }
+        },
+        {
+            "type": "text-field",
+            "props": {
+                "label": "form_label_surname"
+            }
+        },
+        {
+            "type": "select-field",
+            "props": {
+                "label": "form_label_currency",
+                "items": [
+                    {
+                        "value": 1,
+                        "text": "form_data_currency_pound"
+                    },
+                    {
+                        "value": 2,
+                        "text": "form_data_currency_euro"
+                    }
+                ]
+            }
+        }
+    ]
+}
